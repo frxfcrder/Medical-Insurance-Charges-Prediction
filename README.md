@@ -1,6 +1,5 @@
 # Insurance Charges Prediction
 
-EDA and charges prediction on an insurance dataset, built as a Jupyter/Colab notebook.
 
 EDA and charges prediction on an insurance dataset, built as a Jupyter/Colab notebook.
 
