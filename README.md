@@ -44,4 +44,4 @@ EDA and charges prediction on an insurance dataset, built as a Jupyter/Colab not
 
 ## How to Run
 
-Open `Insurance_Charges_Analysis.ipynb` in Jupyter/Colab and run all cells.
+Open `Med_Insurance_Charges_Prediction.ipynb` in Jupyter/Colab and run all cells.
