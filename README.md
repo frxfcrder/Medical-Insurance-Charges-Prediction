@@ -1,6 +1,5 @@
 # Insurance Charges Prediction
 
-
 EDA and charges prediction on an insurance dataset, built as a Jupyter/Colab notebook.
 
 ## Dataset
@@ -30,14 +29,17 @@ EDA and charges prediction on an insurance dataset, built as a Jupyter/Colab not
 
 ## Results
 
-| Model | MAE | RMSE | R² |
-| :--- | ---: | ---: | ---: |
-| Baseline | $9,593 | $12,466 | -0.001 |
-| Linear Regression | $4,181 | $5,796 | 0.784 |
-| Random Forest | $2,564 | $4,595 | 0.864 |
-| **Random Forest (Log-Transform)** | **$2,080** | **$4,376** | **0.877** |
+| Model                             |        MAE |       RMSE |        R² |
+| :-------------------------------- | ---------: | ---------: | --------: |
+| Baseline                          |  $9,593.34 |  $12,465.61 |   -0.0009 |
+| Linear Regression                 |  $4,181.19 |   $5,796.28 |    0.7836 |
+| Random Forest                     |  $2,563.57 |   $4,594.50 |    0.8640 |
+| **Random Forest (Log-Transform)** | **$2,079.99** | **$4,375.56** | **0.8767** |
+| XGBoost                           |  $2,446.47 |   $4,347.48 |    0.8783 |
 
-- Best model: Random Forest on log-transformed target
+- Best MAE: Random Forest (Log-Transform) ($2,080)
+- Best RMSE: XGBoost ($4,347)
+- Best R²: XGBoost (0.878)
 - Top charge drivers: `smoker`, `bmi`, `age`
 
 ## How to Run
